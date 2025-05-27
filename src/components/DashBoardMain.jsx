@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/DashBoardMain.css';
+import '../styles/DashboardMain.css';
 import DashboardOverview from './pages/DashboardOverview';
 import Calendar from './pages/Calendar';
 import ActivityFeed from './dashboards/ActivityFeed';
