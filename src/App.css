@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+.sidebar {
+  width: 240px;
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.dashboardmain {
+  flex: 1;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  @media (max-width: 768px) {
+  .sidebar {
+    width: 100%; 
+    height: auto;
+    max-height: 200px;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    border-bottom: 1px solid #e0e0e0;
+  }
+}
+
+  .main-section {
+    width: 100%;
+  }
+
+  .dashboardmain {
+    padding: 10px; 
+  }
+}
